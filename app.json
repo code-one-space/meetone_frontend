@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Meet:One",
+    "slug": "meetone",
+    "description": "Meet:One is designed for the usage in meetings of various types of teams, allowing the usage of different tools",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "sixhats",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hats/white.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "space.codeone.sixhats",
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
